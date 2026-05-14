@@ -4,6 +4,7 @@ import html
 
 import streamlit as st
 import streamlit.components.v1 as components
+from PIL import Image
 
 
 # ============================================================
@@ -12,10 +13,11 @@ import streamlit.components.v1 as components
 # HTML component so the HTML is interpreted correctly and never
 # appears as raw text on the page.
 # ============================================================
+favicon = Image.open("assets/hdlogo.png")
 
 st.set_page_config(
     page_title="Henrique Duarte | Data Science & Process Intelligence",
-    page_icon="HD",
+    page_icon=favicon,
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -595,7 +597,7 @@ PAGE = f"""
                 </p>
                 <div class="hero-actions">
                     <a class="button primary" href="mailto:{html.escape(EMAIL)}">Email</a>
-                    <a class="button" href="{html.escape(LINKEDIN)}" target="_blank">LinkedIn ↗</a>
+                    <a class="button" href="{html.escape(LINKEDIN)}" target="_blank">LinkedIn</a>
                     <a class="button lime" href="{cv_pdf}" download="Henrique_Duarte_CV.pdf">Download CV</a>
                 </div>
             </div>
@@ -917,7 +919,7 @@ PAGE = f"""
         <p class="body">Open for discussions around process intelligence, data science, task mining, AI, automation, and R&D collaborations.</p>
         <div class="hero-actions">
             <a class="button lime" href="mailto:{html.escape(EMAIL)}">Email</a>
-            <a class="button" href="{html.escape(LINKEDIN)}" target="_blank">LinkedIn ↗</a>
+            <a class="button" href="{html.escape(LINKEDIN)}" target="_blank">LinkedIn</a>
             <a class="button" href="{cv_pdf}" download="Henrique_Duarte_CV.pdf">Download CV</a>
         </div>
         <div class="footer-line">
