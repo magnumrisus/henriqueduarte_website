@@ -625,8 +625,8 @@ PAGE = f"""
         <div class="section-inner two-col">
             <div>
                 <div class="eyebrow">001 · Who I am</div>
-                <h2>Data Scientist</h2>
-                <h3>Husband . Cyclist . Guitarrist . Wine Lover . Vinyl Collector . Music Devotee · Family Cook · Pet Walker</h3>
+                <h2>Data Scientist.</h2>
+                <h3>Husband. Cyclist. Guitarrist. Wine Lover. Vinyl Collector. Family Cook. Pet Walker.</h3>
             </div>
             <div>
                 <p class="body">
