@@ -632,7 +632,7 @@ PAGE = f"""
             </div>
             <div>
                 <p class="body">
-                    I have 10+ years of consulting experience across multiple industries. My work bridges academia and industry through research focused on data science, with hands-on experience in multicultural teams and banking clients across Europe and Africa.
+                    I have 10+ years of consulting experience across multiple industries. 
                 </p>
                 <p class="body">
                     My work bridges academia and industry through research focused on data science, with hands-on experience in multicultural teams and B2B clients across Europe and Africa.
